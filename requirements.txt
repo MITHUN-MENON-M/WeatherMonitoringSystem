@@ -1,0 +1,6 @@
+Flask
+Flask_SQLAlchemy
+requests
+apscheduler
+matplotlib
+pandas

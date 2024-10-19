@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Triggered Alerts</h1>
+<table>
+    <tr>
+        <th>City</th>
+        <th>Temperature</th>
+        <th>Timestamp</th>
+        <th>Message</th>
+    </tr>
+    {% for alert in alerts %}
+    <tr>
+        <td>{{ alert.city }}</td>
+        <td>{{ alert.temp | round(2) }}</td>
+        <td>{{ alert.timestamp }}</td>
+        <td>{{ alert.message }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
