@@ -58,7 +58,7 @@ WeatherMonitoringSystem/
 1. **Clone the Repository**
 
    ```bash
-   https://github.com/MITHUN-MENON-M/WeatherMonitoringSystem.git
+   git clone https://github.com/MITHUN-MENON-M/WeatherMonitoringSystem.git
    cd WeatherMonitoringSystem
    ```
 
