@@ -67,7 +67,7 @@ WeatherMonitoringSystem/
    ```bash
    pip install -r requirements.txt
    ```
-**I HAVE KEPT MY API KEY, YOU CAN USE CHANGE IF YOU WANT**
+**I HAVE KEPT MY API KEY, YOU CAN USE CHANGE IF YOU WANT **
 
 5. **Run the Application**
 
