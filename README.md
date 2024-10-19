@@ -69,26 +69,6 @@ WeatherMonitoringSystem/
    ```
 **I HAVE KEPT MY API KEY, YOU CAN USE CHANGE IF YOU WANT**
 
-3. **Obtain OpenWeatherMap API Key**
-
-   - Sign up at [OpenWeatherMap](https://openweathermap.org/) and get your API key.
-   - Open `config.py` and replace `'YOUR_API_KEY'` with your API key.
-
-4. **Configure Settings (Optional)**
-
-   - Adjust configurations in `config.py` as needed:
-
-     ```python
-     API_KEY = 'your_actual_api_key_here'
-     CITIES = ['Delhi', 'Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Hyderabad']
-     INTERVAL_MINUTES = 5  # Configurable interval in minutes
-     TEMP_UNIT = 'Celsius'  # Options: 'Celsius', 'Fahrenheit'
-     TEMP_THRESHOLD = 35  # Temperature threshold for alerts
-     CONSECUTIVE_ALERTS = 2  # Number of consecutive updates to trigger alert
-     SQLALCHEMY_DATABASE_URI = 'sqlite:///weather_data.db'
-     SECRET_KEY = 'your_secret_key_here'
-     ```
-
 5. **Run the Application**
 
    ```bash
